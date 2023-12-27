@@ -1,4 +1,6 @@
 import React from "react";
+import { FaHeart } from "react-icons/fa";
+
 
 import {
   FaFacebook,
@@ -11,7 +13,7 @@ import { FaMobile } from "react-icons/fa6";
 const Footer = () => {
   return (
     <>
-      <div className="bg-gray-100 dark:bg-gray-950">
+      <div className="bg-gray-100 dark:bg-gray-950" id="footer">
         <div className="max-w-[1200px] mx-auto ">
           <div className="grid md:grid-cols-3 py-5">
             <div className="py-8 px-4">
@@ -92,6 +94,13 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="text-center py-10 p-10 border-t-2 border-gray-300/50">
+            <div className="flex items-center justify-center">
+              <span>@copyright 2023 All rights reserved || Made with </span>
+              <FaHeart className="text-red-500 mx-1" />
+              <span> by Sumini</span>
             </div>
           </div>
         </div>

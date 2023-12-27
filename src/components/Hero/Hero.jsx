@@ -35,7 +35,7 @@ const Hero = () => {
     <>
       <div
         style={bgImage}
-        className="min-h[550px] sm:min-h-[600px] bg-gray-950 dark:text-white duration-200 flex justify-center items-center"
+        className="min-h[550px] sm:min-h-[600px] bg-gray-950 dark:text-white duration-200 flex justify-center items-center" id="hero"
       >
         <div className="container pb-8 sm:pb-0 ">
           <div className="grid grid-cols-1 sm:grid-cols-2">

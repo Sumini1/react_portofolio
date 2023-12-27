@@ -7,7 +7,7 @@ import { GiFoodTruck } from "react-icons/gi";
 const Banner = () => {
   return (
     <>
-      <div className="min-h-[550px]">
+      <div className="min-h-[550px]" id="banner">
         <div>
           <div
             data-aos="slide-up"

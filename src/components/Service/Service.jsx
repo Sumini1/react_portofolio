@@ -30,7 +30,7 @@ const ServicesData = [
 const Service = () => {
   return (
     <>
-      <div className="py-10">
+      <div className="py-10" id="service">
         <div className="container">
           {/* Header Section */}
           <div className="text-center mb-20 max-w-[400px] mx-auto">
