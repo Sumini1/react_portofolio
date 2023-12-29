@@ -98,9 +98,14 @@ const Footer = () => {
           </div>
           <div className="text-center py-10 p-10 border-t-2 border-gray-300/50">
             <div className="flex items-center justify-center">
-              <span>@copyright 2023 All rights reserved || Made with </span>
+              <span className="font-bold  text-gray-700 dark:text-gray-400">
+                @copyright 2023 All rights reserved || Made with{" "}
+              </span>
               <FaHeart className="text-red-500 mx-1" />
-              <span> by Sumini</span>
+              <span className="font-bold  text-gray-700 dark:text-gray-400">
+                {" "}
+                by Sumini
+              </span>
             </div>
           </div>
         </div>
