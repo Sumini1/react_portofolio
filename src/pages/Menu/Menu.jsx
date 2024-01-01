@@ -21,7 +21,7 @@ const Menu = () => {
   };
   console.log(menus);
   return (
-    <div className="bg-slate-400">
+    <div className="bg-slate-400 mb-0 p-0 w-[100%] h-[100vw] z-50 backdrop-blur">
       <h1 className="text-center text-[#4B0082] font-bold mb-10 py-5">
         List Semua Menu
       </h1>

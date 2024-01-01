@@ -25,7 +25,7 @@ const MenuDetail = () => {
   };
 
   return (
-    <div className="bg-slate-400 ">
+    <div className="bg-slate-400 mb-0 p-0 w-[100%] h-[100vw] z-50 backdrop-blur">
       <div>
         <h1 className="text-[#4B0082] font-bold text-center mb-6 py-8">
           Menu Detail
